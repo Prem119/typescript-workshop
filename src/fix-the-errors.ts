@@ -18,3 +18,5 @@ employee = {
 
 // Create a employee object type array and push employee data to the array
 // let employeeList = .................
+
+// Print the type of the employeeList object
