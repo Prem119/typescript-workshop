@@ -8,28 +8,33 @@
 [Try me](https://www.typescriptlang.org/play?#code/MYewdgzgLgBAtgUwhAhgcwTAvDA5ACQQBsiQYB1EAJyIBMBCXAbgCgUiEqoAKRZdBAEpWQA)
 <pre>
 const message = 'Hello World!';
-alert(message);
+console.log(message);
 
 </pre>
 
 <ins>Exercise 2: </ins>Fix the errors
 
-[Try me](https://www.typescriptlang.org/play?#code/MYewdgzgLgBGCuBbAjALjkgRgUwE4wF4YByAZmIG4AoBFQjOgahgHYKYB6DmZABiqpcYAERBwQsCAAt4AM1kAbbDChTloACbKFASzDYIVWfDDAoO8DA0gAyiETZVegOYwAFADcAhgvSYQIEpeYACUMADeVDDRMDqy7t4KYZExqTCgkJJQ+ETE1vqUUTEAvgKpGRCB2AB0CiDObtC4IdSlgtyi4rDAUsHOyqoDAJ4ADsog8YMwXhAQOs5gDmCwifDYVEqw2IgjdUPY2ACSGuhNLvTEALIAYny8yIXbuyD7Rxr0d8jUQA)
+[Try me](https://www.typescriptlang.org/play?#code/MYewdgzgLgBGCuBbAjALjkgRgUwE4wF4YByAZmIG4AoBFQjOgahgHYKYB6DmZABitCQQAG2wA6YSADmAClrIAlNSpcYAERBwQsYAAsAhmCnYYUXSagBPAA4mQAM1PmY+iBACWUsImxhYAN31heGwqUVhsRGtJS2xsAEkAE3RoXHcjemIAWQAxPl5kSipI6JBYhMT6fORqQQgRcUlZEpi4pKUqMOwIqNbsdABvKhgRuH0fFKg0owAaYdH3ZIYcfCoAX2oWsrj6IdGxiZ4AJlI5-cX0AA9LAC915VUAYVxsfSgTfRgt8pgQTAArbDAWBWWwuXC4fSWFxgSrWeAQXRfXrbEyJN6fKCaMwfCFQlTccLI0rlAAy7mg9DE1JptLp1KoQA)
 <pre>
 const num1: number = '3';
 num1 = num1 + 7; // 10
-
-// Do not shuffle the code lines
-function doSomething (val: boolean) {
-    if (val) {
-        const str = 'done';
-    }
-
-    console.log(str);
-}
+console.log(num1);
 
 // Do not change the type of the assignment value
 let employeeId: string = 'MF1001';
 employeeId = 1001;
+console.log(employeeId);
+
+let employee: {
+    name: string,
+    id: number 
+};
+employee = {
+    name: 123,
+    id: xyz
+};
+
+// Create a employee object type array and push employee data to the array
+// let employeeList = .................
 
 </pre>
